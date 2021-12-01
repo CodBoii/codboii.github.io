@@ -376,7 +376,6 @@ nav {
 }
 
 .unavailable__link {
-    padding: 8px;
     cursor: not-allowed;
 }
 
@@ -411,6 +410,7 @@ footer{
 .footer__social--links{
     width: 100%;
     display: flex;
+    align-items: center;
     margin-bottom: 20px;
     justify-content: space-around;
     max-width: 500px;
@@ -463,7 +463,7 @@ footer{
     }
 
     .project__description-para {
-        font-size: 14px;
+        display: none;
     }
 
     .project__description {
@@ -485,7 +485,7 @@ footer{
         width: 100%;
     }
 
-    .project__description-para {
+    .project__description--para {
         display: none;
     }
 
@@ -500,6 +500,7 @@ footer{
     }
 
     .project__description--title {
+        text-align: center;
         line-height: 1;
         font-size: 32px;
     }
